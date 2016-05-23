@@ -1,0 +1,41 @@
+Sean Darryanto
+CS81
+
+1)
+Country: name, states, size, population, government type, president, etc
+Restaurant: menu, grade, type of restaurant, staff, 
+Music album: title, number of songs, genre
+Basketball team: name, coach, team members' names, number of players, ranking of the team
+Movie: title, rating, duration, genre
+
+2)
+c.constructor's value is:
+function (r){
+	this.radius = r;
+}
+You pass the radius through the constructor.
+
+22.
+var reverse = function(x){
+	return x.split('').reverse().join('');
+}
+
+23)
+<!doctype html>
+<html>
+<head>
+	<title>REVERSE</title>
+</head>
+<body>
+	<input type="text" id="inputText"></input><br>
+	<button onclick="reverse()">Reverse</button>
+</body>
+<script>
+function reverse(){
+	var x = document.getElementById("inputText").value;
+	var result = x.split('').reverse().join('');
+	document.getElementById("inputText").value = result;
+}
+</script>
+</html>
+	
